@@ -19,7 +19,7 @@ async function initialize()
 {
     return new Promise((resolve, reject) =>
     {
-        let connect = mongoose.createConnection('mongodb+srv://anurag56964:SAliudbhfs@cluster0.wyp2tcw.mongodb.net/?retryWrites=true&w=majority');
+        let connect = mongoose.createConnection('mongodb+srv://anuragcase:kp2uiulbXeGxEkH1@cluster0.r663k2k.mongodb.net/?retryWrites=true&w=majority');
         connect.on('error', (err) => {
             reject(err);
         });
